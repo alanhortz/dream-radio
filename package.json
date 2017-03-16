@@ -1,0 +1,22 @@
+{
+  "name": "dream-radio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alanhortz/dream-radio.git"
+  },
+  "author": "Alan Hortz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alanhortz/dream-radio/issues"
+  },
+  "homepage": "https://github.com/alanhortz/dream-radio#readme",
+  "dependencies": {
+    "socket.io": "^1.7.3"
+  }
+}
