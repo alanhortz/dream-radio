@@ -1,4 +1,8 @@
-var server = require('http').createServer();
+var express = require('express');
+var app = require('express')();
+var server = require('http').createServer(app);
+
+app.use(express.static('public'));
 
 var io = require('socket.io')(server);
 
@@ -8,7 +12,6 @@ io.on('connection', function(client){
   });
   client.on('disconnect', function(){});
 });
-
 
 
 server.listen(3000);
